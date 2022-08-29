@@ -1,0 +1,13 @@
+@import 'variables.scss';
+
+.skills{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-weight: bold;
+	font-size: 6vw;
+	color: $secondary-dark-color;
+}
+.skills span{
+	padding: 5px;
+}

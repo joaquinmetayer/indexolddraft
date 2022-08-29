@@ -1,0 +1,58 @@
+@import 'variables.scss';
+
+.proyectos-container{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.proyectos-titulo{
+	font-size: 10vw;
+	font-weight: bold;
+	color: $secondary_white-color;
+}
+.proyectos-container div{
+	border-top: 0.5px solid $color-white;
+}
+.last-card{
+	border-bottom: 0.5px solid $color-white;
+}
+.card-img{
+	height: 250px;
+	object-fit: cover;
+	width: 100%;
+	overflow: hidden;
+}
+.card-title{
+	font-size: 9vw;
+	font-weight: bold;
+}
+.card-links{
+	font-size: 17.5px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 3px;
+}
+.card-details{
+	padding-left: 3px;
+}
+.card-description{
+	font-size: 25px;
+	padding:  20px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+@media (max-width: 1100px){
+	.proyectos-container{
+		grid-template-columns: auto;
+	}
+	.proyectos-container div{
+		border-bottom: 0.5px solid $color-white;
+	}
+	.last-card{
+		border-bottom: 0;
+	}
+	.card-img{
+		height: 175px;
+	}
+}

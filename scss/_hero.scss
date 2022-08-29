@@ -1,0 +1,40 @@
+@import 'variables.scss';
+
+.container-name{
+	text-align: right;
+}
+.front-title-container{
+	text-align: left;
+}
+h1{
+	font-size: 12vw;
+	font-weight: bold;
+	padding: 5px;
+	line-height: 12vw;
+}
+.hero{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.nav-links{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	justify-items: center;
+	flex-wrap: wrap;
+}
+nav ul li {
+	display: flex;
+	list-style: none;
+	font-size: 5vw;
+	padding: 0 10px 0 10px;
+}
+nav a{
+	text-decoration: none;
+}
+.blog{
+	color: $secondary_white-color;
+	font-weight: bold;
+}

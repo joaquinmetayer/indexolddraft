@@ -1,0 +1,13 @@
+@import 'variables.scss';
+
+body{
+	background-color: $bg-color-black;
+	color: $color-white;
+}
+.hr{
+	border: 0.5px solid $color-white;
+	width: 65vw;
+}
+a{
+	color: $color-white;
+}

@@ -1,0 +1,27 @@
+@import 'variables.scss';
+
+.contact{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: $secondary-dark-color;
+}
+.creemos{
+	font-size: 9vw;
+	font-weight: bold;
+	padding: 5px;
+}
+.mail{
+	font-size: 6vw;
+	font-weight: bold;
+	text-align: center;
+}
+.socials{
+	text-align: right;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: $secondary_white-color;
+}
