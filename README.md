@@ -2,4 +2,4 @@
 
 Old home prototype for my website.
 
-![Screen Shot 2022-08-28 at 23 24 36](https://user-images.githubusercontent.com/83543601/187110700-05964545-d55d-44a9-b940-b52e5cb9850a.png)
+![Screen Shot 2022-08-28 at 23 24 36](https://user-images.githubusercontent.com/83543601/187111171-39907f75-686a-47dc-b841-b2b45861b2be.png)
